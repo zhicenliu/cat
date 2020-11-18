@@ -37,7 +37,7 @@ import com.dianping.cat.message.spi.codec.PlainTextMessageCodec;
 
 public class DefaultMessageTree implements MessageTree {
 
-	private ByteBuf m_buf;
+	private byte[] m_buf;
 
 	private String m_domain;
 
