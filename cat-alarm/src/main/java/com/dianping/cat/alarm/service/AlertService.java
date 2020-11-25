@@ -33,7 +33,7 @@ import com.dianping.cat.alarm.AlertDao;
 import com.dianping.cat.alarm.spi.AlertEntity;
 import com.dianping.cat.alarm.spi.sender.SendMessageEntity;
 
-@Named
+
 public class AlertService {
 
 	@Inject
